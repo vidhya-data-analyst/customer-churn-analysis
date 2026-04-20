@@ -78,9 +78,3 @@ The analysis highlights key factors affecting customer churn and demonstrates ho
 ## 👩‍💻 Author
 Vidhya G  
 Aspiring Data Analyst | SQL | Python | Power BI
-
-
-
-
-
-ata Analyst | SQL | Python | Power BI
