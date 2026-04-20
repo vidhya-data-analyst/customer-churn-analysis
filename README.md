@@ -31,20 +31,20 @@ This project analyzes customer churn data to identify key factors that lead cust
 ## 🔄 Project Workflow
 
 1. Data Cleaning
-Handled missing values
-Converted data types (e.g., TotalCharges)
-Removed inconsistent records
+- Handled missing values
+- Converted data types (e.g., TotalCharges)
+- Removed inconsistent records
 
-3. Exploratory Data Analysis (EDA)
-Analyzed churn distribution
-Studied relationships between churn and key features
-Created visualizations for better understanding
+2. Exploratory Data Analysis (EDA)
+- Analyzed churn distribution
+- Studied relationships between churn and key features
+- Created visualizations for better understanding
 
-5. Data Visualization
-Churn distribution
-Contract type vs churn
-Monthly charges vs churn
-Tenure vs churn
+3. Data Visualization
+- Churn distribution
+- Contract type vs churn
+- Monthly charges vs churn
+- Tenure vs churn
 
 ## 📂 Project Structure
 customer-churn-analysis/ 
