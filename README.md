@@ -7,24 +7,24 @@ This project analyzes customer churn data to identify key factors that lead cust
 ---
 
 ## 🎯 Business Objective
-Identify customers who are likely to churn
-Understand key drivers behind churn behavior
-Provide data-driven recommendations to improve customer retention
+- Identify customers who are likely to churn
+- Understand key drivers behind churn behavior
+- Provide data-driven recommendations to improve customer retention
 
 ---
 
 ## 📂 Dataset Information
-Source: Telecom Customer Churn Dataset
-Records: ~7000 customers
-Features: Customer demographics, account information, services, billing details
+- Source: Telecom Customer Churn Dataset
+- Records: ~7000 customers
+- Features: Customer demographics, account information, services, billing details
 
 ---
 
 ## 🛠 Tools & Technologies
-Python
-Pandas & NumPy
-Matplotlib & Seaborn
-Jupyter Notebook / Google Colab
+- Python
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- Jupyter Notebook / Google Colab
 
 ---
 
