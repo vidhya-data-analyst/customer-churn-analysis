@@ -16,7 +16,7 @@ This project analyzes customer churn data to identify key factors that influence
 customer-churn-analysis/
 │
 ├── data/
-│ └── churn_data_cleaned.csv
+│ └── churn_data.csv
 │
 ├── notebooks/
 │ └── churn_analysis.ipynb
