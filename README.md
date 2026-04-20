@@ -1,14 +1,13 @@
 # 📊 Customer Churn Analysis
 
 ## 📌 Project Overview
-This project analyzes customer churn data to identify key factors that influence customer retention. The analysis focuses on understanding customer behavior and uncovering patterns that lead to churn, helping businesses make data-driven decisions.
+This project analyzes customer churn data to identify key factors that lead customers to leave a company.
 
 ---
 
 ## 🛠️ Tools & Technologies Used
-- Python (Pandas, NumPy)
+- Python (Pandas, Seaborn)
 - Data Visualization (Matplotlib)
-- SQL (Basic querying and analysis)
 
 ---
 
@@ -16,14 +15,16 @@ This project analyzes customer churn data to identify key factors that influence
 customer-churn-analysis/
 │
 ├── data/
-│ └── churn_data.csv
+│ └── churn_data.xlsx
+│
+├── images/
+│ └── charges_churn.png
+│ ├── churn_distribution.png
+│ └── contract_churn.png
+│ └── tenure_churn.png
 │
 ├── notebooks/
 │ └── churn_analysis.ipynb
-│
-├── images/
-│ ├── churn_distribution.png
-│ └── contract_churn.png
 │
 ├── README.md
 
@@ -38,14 +39,16 @@ customer-churn-analysis/
 ---
 
 ## 📊 Data Analysis Performed
-- Analyzed overall churn distribution  
-- Studied churn behavior based on contract type  
-- Compared monthly charges between churned and retained customers  
-- Identified patterns influencing customer retention  
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Data Visualization
 
 ---
 
 ## 📈 Visualizations
+
+### 🔹 Churn charges
+![Churn Distribution](images/charges_churn.png)
 
 ### 🔹 Churn Distribution
 ![Churn Distribution](images/churn_distribution.png)
@@ -53,13 +56,17 @@ customer-churn-analysis/
 ### 🔹 Churn by Contract Type
 ![Contract Churn](images/contract_churn.png)
 
+### 🔹 Tenure Churn 
+![Contract Churn](images/tenure_churn.png)
+
 ---
 
 ## 💡 Key Insights
 - Customers with **month-to-month contracts** have a higher churn rate  
 - Higher **monthly charges** are associated with increased churn  
 - Customers with long-term contracts are more likely to stay  
-- Contract type plays a significant role in customer retention  
+- Contract type plays a significant role in customer retention
+- Customers with low tenure tend to leave early
 
 ---
 
